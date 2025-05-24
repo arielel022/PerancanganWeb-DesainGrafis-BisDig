@@ -1,32 +1,64 @@
 # PerancanganWeb-DesainGrafis-BisDig
 
-## Deskripsi
+## 📸 Halaman Profil Fotografer Profesional
 
-Proyek ini merupakan halaman profil untuk seorang fotografer profesional yang dibangun menggunakan HTML5. Halaman ini menampilkan gambar profil, deskripsi singkat, galeri karya, dan tautan media sosial.
+Repository ini berisi contoh **halaman profil** untuk seorang fotografer profesional yang menampilkan gambar, deskripsi, dan tautan media sosial menggunakan struktur dasar HTML5 yang baik dan semantik.
 
-## Struktur Halaman
+---
 
-- **Header**: Nama dan slogan fotografer
-- **Main**
-  - **Section Profil**: Deskripsi dan foto diri
-  - **Section Galeri**: Menampilkan hasil karya fotografi
-  - **Section Sosial Media**: Tautan ke media sosial
-- **Footer**: Informasi hak cipta
+## 🎯 Tujuan
 
-## File
+Membangun halaman profil yang:
 
-- `profil.html`: File utama HTML halaman profil
-- `style.css`: (Opsional) File CSS untuk gaya tampilan
-- `images/`: Folder berisi gambar profil dan galeri
+- Menampilkan **foto profil** fotografer
+- Memuat **deskripsi singkat** tentang sang fotografer
+- Menyediakan **tautan media sosial** untuk memperluas jaringan dan profesionalisme
+- Menggunakan elemen HTML5 yang semantik dan sesuai standar
 
-## Cara Mengakses
+---
 
-1. Clone repositori ini:
-   ```
-   git clone https://github.com/username/PerancanganWeb-DesainGrafis-BisDig.git
-   ```
-2. Buka file `profil.html` di browser.
+## 🏗️ Struktur Dasar HTML5
 
-## Lisensi
+Halaman profil ini menggunakan struktur HTML5 yang terdiri dari:
 
-Proyek ini menggunakan lisensi MIT.
+- `<header>`: Bagian atas halaman, berisi judul dan navigasi
+- `<main>`: Konten utama halaman, berisi profil fotografer
+- `<section>`: Pembagian konten yang spesifik seperti galeri gambar dan bio
+- `<footer>`: Bagian bawah halaman, berisi hak cipta dan info tambahan
+
+---
+
+## 📝 Contoh Kode HTML
+
+```html
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Profil Fotografer Profesional</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>John Doe - Fotografer Profesional</h1>
+  </header>
+  <main>
+    <section id="profile">
+      <img src="foto-profil.jpg" alt="Foto John Doe" />
+      <p>John Doe adalah fotografer profesional dengan pengalaman lebih dari 10 tahun dalam bidang fotografi landscape dan potret.</p>
+    </section>
+    <section id="social-media">
+      <h2>Temukan Saya di</h2>
+      <ul>
+        <li><a href="https://instagram.com/johndoe" target="_blank">Instagram</a></li>
+        <li><a href="https://twitter.com/johndoe" target="_blank">Twitter</a></li>
+        <li><a href="https://linkedin.com/in/johndoe" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <p>© 2025 John Doe Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
