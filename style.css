@@ -57,3 +57,34 @@ footer {
     padding: 1em;
     margin-top: 2em;
 }
+
+/* Tambahan untuk form kontak */
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #222;
+  color: white;
+}
+
+.contact-form textarea {
+  min-height: 100px;
+}
+
+.contact-form button {
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #555;
+}
