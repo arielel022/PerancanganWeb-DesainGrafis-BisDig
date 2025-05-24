@@ -18,8 +18,7 @@ Halaman ini menggunakan struktur semantik HTML5 sebagai berikut:
 - `README.md`: Dokumentasi proyek ini
 
 ## Demo
-> Jika Anda mengaktifkan GitHub Pages, halaman akan dapat diakses di:
-> `https://[username].github.io/PerancanganWeb-DesainGrafis-BisDig/`
+> `https://arielel022.github.io/PerancanganWeb-DesainGrafis-BisDig/`
 
 ## Kontak
 - **Instagram**: [@z3gariel](https://www.instagram.com/z3gariel)
