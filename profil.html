@@ -2,55 +2,166 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ariel Putra Az Zikra - Fotografer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ariel Putra Az Zikra - Fotografer Profesional</title>
   <link rel="stylesheet" href="style.css" />
-  <!-- Font dan ikon -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    /* CSS langsung untuk demo cepat, bisa dipisah ke style.css */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background: #222831;
+      color: #ececec;
+      padding: 40px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 30px;
+    }
+    header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.2rem;
+      margin-top: 8px;
+      color: #00adb5;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    section h2 {
+      border-left: 6px solid #00adb5;
+      padding-left: 15px;
+      margin-bottom: 20px;
+      font-size: 2rem;
+      color: #222831;
+    }
+    #profil img {
+      display: block;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 20px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+    #profil p {
+      font-size: 1.1rem;
+      text-align: center;
+      max-width: 700px;
+      margin: 0 auto;
+      color: #444;
+    }
+    .galeri {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+    .galeri img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .galeri img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    }
+    #sosial ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding-top: 10px;
+    }
+    #sosial a {
+      background-color: #00adb5;
+      color: white;
+      padding: 12px 22px;
+      border-radius: 30px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 3px 8px rgba(0,173,181,0.4);
+      transition: background-color 0.3s ease;
+    }
+    #sosial a:hover {
+      background-color: #007a84;
+      box-shadow: 0 5px 15px rgba(0,122,132,0.6);
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      section h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Ariel Putra Az Zikra</h1>
-    <p>“Mengabadikan Momen, Menyimpan Kenangan”</p>
-  </header>
 
-  <main>
-    <section class="profil">
-      <img src="images/fotografer.jpg" alt="Ariel Putra Az Zikra">
-      <div class="deskripsi">
-        <h2>Profil</h2>
-        <p>
-          Saya adalah seorang fotografer profesional yang fokus pada dokumentasi pernikahan, potret pribadi, dan acara spesial. Menggunakan pendekatan artistik dan personal dalam setiap sesi, saya berkomitmen mengabadikan momen-momen istimewa menjadi kenangan abadi.
-        </p>
-      </div>
-    </section>
+<header>
+  <h1>Ariel Putra Az Zikra</h1>
+  <p>Mengabadikan Momen, Menyimpan Kenangan</p>
+</header>
 
-    <section class="galeri">
-      <h2>Galeri Karya</h2>
-      <div class="foto">
-        <img src="images/karya1.jpg" alt="Karya Fotografi 1" />
-        <img src="images/karya2.jpg" alt="Karya Fotografi 2" />
-        <img src="images/karya3.jpg" alt="Karya Fotografi 3" />
-      </div>
-    </section>
+<main>
+  <section id="profil">
+    <h2>Profil</h2>
+    <img src="images/fotografer.jpg" alt="Foto Ariel Putra Az Zikra" />
+    <p>
+      Ariel Putra Az Zikra adalah fotografer profesional yang berdedikasi dalam mengabadikan momen-momen berharga dengan sentuhan artistik. Berpengalaman dalam fotografi potret, acara pernikahan, dan dokumentasi kreatif yang memukau.
+    </p>
+  </section>
 
-    <section class="sosial">
-      <h2>Temui Saya di Media Sosial</h2>
-      <a href="https://instagram.com/arielel022" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="https://facebook.com/arielel022" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="mailto:arielel022@example.com" aria-label="Email">
-        <i class="fas fa-envelope"></i>
-      </a>
-    </section>
-  </main>
+  <section id="galeri">
+    <h2>Galeri Karya</h2>
+    <div class="galeri">
+      <img src="images/karya1.jpg" alt="Karya Fotografi 1" />
+      <img src="images/karya2.jpg" alt="Karya Fotografi 2" />
+      <img src="images/karya3.jpg" alt="Karya Fotografi 3" />
+    </div>
+  </section>
 
-  <footer>
-    &copy; 2025 Ariel Putra Az Zikra. All rights reserved.
-  </footer>
+  <section id="sosial">
+    <h2>Hubungi Saya</h2>
+    <ul>
+      <li><a href="https://instagram.com/ariel_foto" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+      <li><a href="https://facebook.com/ariel.fotografi" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+      <li><a href="mailto:ariel@example.com">Email</a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Ariel Putra Az Zikra. Semua hak dilindungi.</p>
+</footer>
+
 </body>
 </html>
